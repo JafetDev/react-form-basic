@@ -53,7 +53,7 @@ function App() {
 
   return (
     <div className="App">
-      
+      <form id="formulario" className="formulario">
         <div className="form-group" >
           <label>
             Nombre:
@@ -75,7 +75,7 @@ function App() {
           </label>
         </div>
         
-      
+      </form>
 
       <button  disabled={buttonEnable}  className="btn btn-success" onClick={ sendForm } >
         Enviar
